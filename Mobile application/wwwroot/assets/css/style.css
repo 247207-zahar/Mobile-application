@@ -197,3 +197,9 @@ img {
     flex-direction: column;
     gap: 7px;
 }
+.app-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 2px;
+}
