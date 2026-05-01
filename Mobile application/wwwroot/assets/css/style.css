@@ -140,3 +140,11 @@ img {
     line-height: 1.18;
     letter-spacing: -.6px;
 }
+.hero-sub {
+    font-size: .9rem;
+    color: var(--text-body);
+    line-height: 1.7;
+    margin-top: .9rem;
+    max-width: 400px;
+}
+ 
