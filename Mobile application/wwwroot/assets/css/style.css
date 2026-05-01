@@ -147,4 +147,7 @@ img {
     margin-top: .9rem;
     max-width: 400px;
 }
- 
+.hero-right {
+    background: linear-gradient(135deg, #FFF8E8 0%, #FFF3CE 100%);
+    padding: 40px 40px 40px 20px;
+} 
