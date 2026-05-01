@@ -312,3 +312,10 @@ img {
     overflow: hidden;
     min-height: 240px;
 }
+.hero-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
