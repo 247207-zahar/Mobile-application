@@ -10,3 +10,29 @@
     --text-body: #4A4A5A;
     --font: 'DM Sans', sans-serif;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--navy);
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: opacity .2s;
+}
+
+    a:hover {
+        opacity: .8;
+    }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+ 
