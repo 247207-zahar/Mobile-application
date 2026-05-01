@@ -511,3 +511,40 @@ img {
     line-height: 1.65;
     margin: 0;
 }
+.info-cards-section {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.info-card {
+    border-radius: 20px;
+    padding: 40px 36px;
+    height: 100%;
+    transition: box-shadow .2s;
+}
+
+    .info-card:hover {
+        box-shadow: 0 12px 40px rgba(0,0,0,.1);
+    }
+
+.info-card-yellow {
+    background: var(--yellow);
+    color: var(--navy);
+}
+
+.info-card-white {
+    background: #fff;
+    border: 1.5px solid var(--gray-border);
+}
+
+.info-card h4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: .9rem;
+    line-height: 1.65;
+    margin: 0;
+}
