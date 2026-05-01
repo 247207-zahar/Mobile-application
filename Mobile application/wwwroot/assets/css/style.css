@@ -319,3 +319,9 @@ img {
     object-position: center top;
     display: block;
 }
+.yellow-tint {
+    position: absolute;
+    inset: 0;
+    background: rgba(245, 166, 35, 0.62);
+    mix-blend-mode: multiply;
+}
