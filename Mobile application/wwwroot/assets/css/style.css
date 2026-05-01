@@ -203,3 +203,10 @@ img {
     gap: 5px;
     padding: 0 2px;
 }
+.app-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--yellow);
+    flex-shrink: 0;
+}
