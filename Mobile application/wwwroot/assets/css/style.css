@@ -71,3 +71,17 @@ img {
         color: #fff;
         transform: translateY(-2px);
     }
+.btn-outline-white {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: .86rem;
+    padding: 10px 22px;
+}
+
+    .btn-outline-white:hover {
+        background: rgba(255,255,255,.15);
+        color: #fff;
+    }
