@@ -133,3 +133,10 @@ img {
     background: #fff;
     padding: 50px 48px 50px 60px;
 }
+.hero-heading {
+    font-size: clamp(1.7rem, 3.2vw, 2.5rem);
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.18;
+    letter-spacing: -.6px;
+}
