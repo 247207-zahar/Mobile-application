@@ -306,3 +306,9 @@ img {
     border-radius: 3px;
     margin: 8px auto 8px;
 }
+.hero-photo-area {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    min-height: 240px;
+}
