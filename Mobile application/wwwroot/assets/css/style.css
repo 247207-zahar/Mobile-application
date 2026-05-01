@@ -122,3 +122,7 @@ img {
 .fw-600 {
     font-weight: 600 !important;
 }
+.hero-section {
+    background: #fff;
+    overflow: hidden;
+}
