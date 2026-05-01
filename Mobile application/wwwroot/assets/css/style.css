@@ -55,3 +55,19 @@ img {
         color: var(--navy);
         transform: translateY(-2px);
     }
+.btn-outline-hero {
+    background: transparent;
+    color: var(--navy);
+    border: 2px solid var(--navy);
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: .86rem;
+    padding: 10px 22px;
+    transition: background .2s, transform .15s;
+}
+
+    .btn-outline-hero:hover {
+        background: var(--navy);
+        color: #fff;
+        transform: translateY(-2px);
+    }
