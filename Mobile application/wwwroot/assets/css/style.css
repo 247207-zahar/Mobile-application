@@ -548,3 +548,20 @@ img {
     line-height: 1.65;
     margin: 0;
 }
+.cta-banner {
+    background: linear-gradient(135deg, #3737C8 0%, #2020A0 100%);
+    padding: 80px 0;
+    color: #fff;
+}
+
+.cta-heading {
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+    font-weight: 800;
+    color: #fff;
+}
+
+.cta-sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,.8);
+    margin-top: .5rem;
+}
