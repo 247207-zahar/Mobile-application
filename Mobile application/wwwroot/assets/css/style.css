@@ -126,3 +126,6 @@ img {
     background: #fff;
     overflow: hidden;
 }
+.hero-row {
+    min-height: 340px;
+}
