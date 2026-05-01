@@ -222,3 +222,10 @@ img {
     height: 68px;
     position: relative;
 }
+.scan-ring {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
