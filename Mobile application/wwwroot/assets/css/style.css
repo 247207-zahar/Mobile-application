@@ -215,3 +215,10 @@ img {
     font-weight: 800;
     color: #fff;
 }
+.app-scan-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    position: relative;
+}
