@@ -85,3 +85,40 @@ img {
         background: rgba(255,255,255,.15);
         color: #fff;
     }
+.navbar {
+    box-shadow: 0 1px 8px rgba(0,0,0,.06);
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--navy);
+    letter-spacing: -.5px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: .9rem;
+    color: var(--navy) !important;
+    padding: 8px 10px !important;
+}
+
+.btn-signin {
+    background: var(--purple);
+    color: #fff;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: .86rem;
+    padding: 9px 22px;
+    border: none;
+    transition: background .2s;
+}
+
+    .btn-signin:hover {
+        background: #2828b0;
+        color: #fff;
+    }
+
+.fw-600 {
+    font-weight: 600 !important;
+}
