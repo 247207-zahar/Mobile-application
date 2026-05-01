@@ -1,22 +1,12 @@
-﻿@media (max-width: 991.98px) {
-    .hero-left {
-        padding: 40px 30px;
-        text-align: center;
-    }
-
-    .hero-sub {
-        margin: .9rem auto 0;
-    }
-
-    .hero-left .d-flex {
-        justify-content: center;
-    }
-
-    .hero-right {
-        padding: 30px 20px 40px;
-    }
-
-    .hero-box {
-        max-width: 420px;
-    }
+﻿:root {
+    --yellow: #F5A623;
+    --yellow-dk: #E09010;
+    --navy: #1A1A3E;
+    --purple: #3737C8;
+    --white: #FFFFFF;
+    --off-white: #F8F8FA;
+    --gray-light: #F2F2F7;
+    --gray-border: #E5E5EA;
+    --text-body: #4A4A5A;
+    --font: 'DM Sans', sans-serif;
 }
