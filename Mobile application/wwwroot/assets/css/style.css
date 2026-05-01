@@ -35,4 +35,23 @@ img {
     max-width: 100%;
     display: block;
 }
- 
+.btn-yellow {
+    background: var(--yellow);
+    color: var(--navy);
+    border: 2px solid var(--yellow);
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: .86rem;
+    padding: 10px 22px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background .2s, transform .15s;
+}
+
+    .btn-yellow:hover {
+        background: var(--yellow-dk);
+        border-color: var(--yellow-dk);
+        color: var(--navy);
+        transform: translateY(-2px);
+    }
