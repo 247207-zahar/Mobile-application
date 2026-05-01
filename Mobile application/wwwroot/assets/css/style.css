@@ -325,3 +325,103 @@ img {
     background: rgba(245, 166, 35, 0.62);
     mix-blend-mode: multiply;
 }
+.reviews-section {
+    background: var(--yellow);
+    padding: 60px 0 40px;
+}
+
+.reviews-heading {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 32px;
+}
+
+.reviews-slider-wrap {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+    .reviews-slider-wrap::-webkit-scrollbar {
+        display: none;
+    }
+
+.reviews-track {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 8px;
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px 20px;
+    min-width: 250px;
+    max-width: 270px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.stars {
+    color: var(--yellow);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: .82rem;
+    color: var(--text-body);
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.review-card strong {
+    font-size: .8rem;
+    color: var(--navy);
+}
+
+.featured-in-row {
+    border-top: 1px solid rgba(0,0,0,.12);
+    margin-top: 40px;
+    padding-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px;
+}
+
+.featured-label {
+    font-size: .76rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.featured-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 22px;
+}
+
+.feat-logo {
+    font-weight: 800;
+    font-size: .88rem;
+    color: var(--navy);
+    opacity: .65;
+}
+
+.cnbc-logo {
+    font-size: 1.1rem;
+}
+
+.wired-logo {
+    letter-spacing: 2px;
+}
+
+.feat-logo em {
+    font-style: italic;
+    font-size: .82rem;
+}
